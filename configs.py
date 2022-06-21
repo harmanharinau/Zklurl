@@ -15,7 +15,7 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is a TeleGram BotList Search Bot of @CyniteBots And Some Other Bots Available On TeleGram.
 
-🤖 My Name: <a href='https://t.me/Mdisk_SearchRobot'> Mᴅɪsᴋ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ </a>
+🤖 My Name: <a href='https://t.me/LiveTVChannelBot'> ʟɪᴠᴇ ᴄʜᴀɴɴᴇʟ sᴛʀᴇᴀᴍᴇʀ </a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -36,7 +36,7 @@ class Config(object):
 
 Bots are simply Telegram accounts operated by software – not people – and they'll often have AI features. They can do anything – teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things.
 
-🌀 I will help you to find Best Telegram Bots.
+🌀 I will help you to find Live Tv Channels.
 
 🌀 If you Get Any Error In Searching Please Report at **@Cyniteofficial**.
 
@@ -48,7 +48,7 @@ Bots are simply Telegram accounts operated by software – not people – and t
 """
     
     HOME_TEXT = """
-<b>👋 Hey !{}, This is Online Search Botlist Bot <a href='https://t.me/cyniteBots/4523'>ᴄʏɴɪᴛᴇ</a>.
+<b>👋 Hey !{}, I am TV Streamer Bot <a href='https://t.me/cyniteBots/4523'>ᴄʏɴɪᴛᴇ</a>.
 
 <a> Modified By : @Cyniteofficial</a>
 
@@ -60,6 +60,6 @@ Bots are simply Telegram accounts operated by software – not people – and t
 
     START_MSG = """
 <b>👋 Hey {}, 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂  <a href='https://t.me/Mdisksearch_robot'>MᴅɪsᴋSᴇᴀʀᴄʜ Rᴏʙᴏᴛ</a>.
-<a> 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 ♥️♥️🔥 </a>
+<a> I can generate streaming Channel links </a>
 """
     ADD_BOTS = """<b>Heya! {} Want Same Like This Then Contact The Support.</b>"""
