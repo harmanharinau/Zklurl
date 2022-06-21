@@ -59,9 +59,9 @@ async def inline_handlers(_, event: InlineQuery):
     if event.query == "":
         answers.append(
             InlineQueryResultArticle(
-                title="This is Inline BotList Search Bot 🔍",
-                description="You Can Search All Bots Available On TeleGram.",
-                thumb_url="https://telegra.ph/Channel-List-By-CyniteBots-06-21", 
+                title="This is Inline Channel Search Bot 🔍",
+                description="You Can Search Channels Available On Bot.",
+                thumb_url="https://telegra.ph/file/0470848233ebd5ba41997.jpg", 
                 input_message_content=InputTextMessageContent(
                     message_text="Type Your Channel Name That You Want To Search."
 
