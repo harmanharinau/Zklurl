@@ -63,13 +63,7 @@ async def inline_handlers(_, event: InlineQuery):
                 description="You Can Search All Bots Available On TeleGram.",
                 thumb_url="https://telegra.ph/Channel-List-By-CyniteBots-06-21", 
                 input_message_content=InputTextMessageContent(
-                    message_text="A dream does not become reality through magic; it takes sweat, determination, and hard work."
-
-                                  "<a>@CyniteOfficial || @CyniteBots</a>"
-
-                                  "<a>🔴 YouTube Channel :</a>"
-
-                                  "<a>https://youtube.com/channel/UCiaz-J50QhtJ73XEEjP_aLQ </a>"
+                    message_text="Type Your Channel Name That You Want To Search."
 
                                   "<a>👥 BotSupport : @CyniteOfficial </a>"
 
