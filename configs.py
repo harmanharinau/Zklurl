@@ -59,7 +59,7 @@ Bots are simply Telegram accounts operated by software – not people – and t
 
 
     START_MSG = """
-<b>👋 Hey {}, 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂  <a href='https://t.me/Mdisksearch_robot'>MᴅɪsᴋSᴇᴀʀᴄʜ Rᴏʙᴏᴛ</a>.
-<a> I can generate streaming Channel links </a>
+<b>👋 Hey {}, ᴍʏ <a href='https://telegra.ph/Channel-List-By-CyniteBots-06-21'>ᴄʜᴀɴɴᴇʟ ʟɪsᴛ</a>.
+<a> I can generate streaming Channel links</a>
 """
     ADD_BOTS = """<b>Heya! {} Want Same Like This Then Contact The Support.</b>"""
