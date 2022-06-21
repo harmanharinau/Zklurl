@@ -32,11 +32,11 @@ async def start_handler(_, event: Message):
 
     await event.reply_text(Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="http://t.me/Mdisk_searchrobot?startgroup=true")],
+            [InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="http://t.me/@LiveTVChannelBot?startgroup=true")],
              [InlineKeyboardButton("ʙᴏᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/CyniteBots"),
             InlineKeyboardButton("♻ʜᴇʟᴘ", callback_data="Help_msg")],
              [InlineKeyboardButton("👥ᴀʙᴏᴜᴛ", callback_data="About_msg"), 
-            InlineKeyboardButton("🔍Search", switch_inline_query_current_chat="")]
+            InlineKeyboardButton("🔍Search Channel", switch_inline_query_current_chat="")]
         ])
     )
 
@@ -61,7 +61,7 @@ async def inline_handlers(_, event: InlineQuery):
             InlineQueryResultArticle(
                 title="This is Inline BotList Search Bot 🔍",
                 description="You Can Search All Bots Available On TeleGram.",
-                thumb_url="https://telegra.ph/file/0242d4a31893317806277.jpg", 
+                thumb_url="https://telegra.ph/Channel-List-By-CyniteBots-06-21", 
                 input_message_content=InputTextMessageContent(
                     message_text="A dream does not become reality through magic; it takes sweat, determination, and hard work."
 
@@ -146,7 +146,7 @@ async def button(bot, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("👥 About", callback_data="About_msg"),
-						InlineKeyboardButton("💢 Github Repo", url="https://t.me/CyniteOfficial")
+						InlineKeyboardButton("💢 Support", url="https://t.me/CyniteOfficial")
 					], 
                                         [
 						InlineKeyboardButton("Bot List", url="https://t.me/cyniteBots/4523"),
@@ -171,7 +171,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("♻ About", callback_data="About_msg")
 					],
                                         [
-						InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="http://t.me/Mdisk_searchrobot?startgroup=true")
+						InlineKeyboardButton("ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="http://t.me/LiveTVChannelBot?startgroup=true")
 					],
 					[
 						InlineKeyboardButton("Search Inline ⤵", switch_inline_query_current_chat=""),
@@ -193,7 +193,7 @@ async def button(bot, cmd: CallbackQuery):
 					],
 					[
 						InlineKeyboardButton("🤖Bot Channel", url="https://t.me/CyniteBots"),
-						InlineKeyboardButton("📃Bots List", url="https://t.me/cyniteBots/4523")
+						InlineKeyboardButton("📃Bots List", url="https://t.me/cyniteBots/4584")
 					], 
                                         [
 						InlineKeyboardButton("👥Developer", url="https://t.me/CyniteOfficial"),
